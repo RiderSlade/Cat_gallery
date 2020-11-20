@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 0px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.iframe_element{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 25%;
+}
+
+.row_flex_container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px solid;
+}
+
+a{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
